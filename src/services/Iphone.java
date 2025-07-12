@@ -19,12 +19,12 @@ public class Iphone implements ReprodutorMusical, AparelhoTelefonico, NavegadorI
 
     @Override
     public void exibirPagina(String url) {
-        System.out.println("Página exibida");
+        System.out.println("Exibindo a página: " + url);
     }
 
     @Override
     public void adicionarNovaAba() {
-        System.out.println("Nova aba adicionada");
+        System.out.println("Nova aba adicionada!");
     }
 
     @Override
@@ -34,12 +34,12 @@ public class Iphone implements ReprodutorMusical, AparelhoTelefonico, NavegadorI
 
     @Override
     public void tocar() {
-        System.out.println("Tocando a música");
+        System.out.println("Tocando a música 🎶");
     }
 
     @Override
     public void pausar() {
-        System.out.println("Pausando a música!");
+        System.out.println("Pausando a música...");
     }
 
     @Override
